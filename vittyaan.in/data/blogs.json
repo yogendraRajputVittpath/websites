@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Understanding Trading Discipline: A Technology Perspective",
+    "description": "Explore how systematic approaches and rule-based frameworks can help build trading discipline through technology platforms.",
+    "date": "2025-01-15",
+    "category": "Trading Discipline",
+    "content": "Trading discipline is fundamental to long-term success in financial markets..."
+  },
+  {
+    "id": 2,
+    "title": "Risk Management Concepts in Simulated Trading Environments",
+    "description": "Learn about risk management principles and how simulation platforms help visualize potential drawdowns before real capital deployment.",
+    "date": "2025-01-10",
+    "category": "Risk Management",
+    "content": "Risk management is the cornerstone of any trading approach..."
+  },
+  {
+    "id": 3,
+    "title": "Simulation vs Real Trading: Key Differences",
+    "description": "Understanding the psychological and practical differences between paper trading and live market execution.",
+    "date": "2025-01-05",
+    "category": "Education",
+    "content": "While simulation platforms provide realistic market conditions..."
+  },
+  {
+    "id": 4,
+    "title": "Technology's Role in Modern Financial Markets",
+    "description": "How technology platforms are transforming market access, data analysis, and execution systems.",
+    "date": "2024-12-28",
+    "category": "Technology",
+    "content": "The financial markets have undergone massive technological transformation..."
+  },
+  {
+    "id": 5,
+    "title": "Common Behavioral Mistakes in Trading: An Educational Overview",
+    "description": "Examining common psychological pitfalls and how systematic approaches can help mitigate emotional decision-making.",
+    "date": "2024-12-20",
+    "category": "Behavioral Finance",
+    "content": "Behavioral biases affect all market participants..."
+  },
+  {
+    "id": 6,
+    "title": "The Importance of Backtesting: Understanding Historical Patterns",
+    "description": "How historical simulation helps understand strategy behavior and risk characteristics in different market conditions.",
+    "date": "2024-12-15",
+    "category": "Analytics",
+    "content": "Backtesting is a crucial component of strategy development..."
+  }
+]

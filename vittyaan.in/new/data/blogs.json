@@ -1,0 +1,62 @@
+[
+  {
+    "id": "fintech-technology",
+    "title": "What makes fintech software different?",
+    "category": "Fintech",
+    "date": "2026-08-19",
+    "readTime": "5 min read",
+    "excerpt": "A practical look at reliability, security, auditability and user trust when building finance-oriented technology.",
+    "imageUrl": "https://images.unsplash.com/photo-1559526324-593bc073d938?auto=format&fit=crop&w=900&q=80",
+    "url": "#"
+  },
+  {
+    "id": "software-architecture",
+    "title": "Designing software that can grow",
+    "category": "Technology",
+    "date": "2026-08-12",
+    "readTime": "6 min read",
+    "excerpt": "Why maintainability and clear boundaries matter before a product starts handling serious scale.",
+    "imageUrl": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80",
+    "url": "#"
+  },
+  {
+    "id": "custom-software",
+    "title": "When should a business build custom software?",
+    "category": "Business",
+    "date": "2026-08-05",
+    "readTime": "4 min read",
+    "excerpt": "A simple framework for deciding between off-the-shelf tools, customization and a custom platform.",
+    "imageUrl": "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=900&q=80",
+    "url": "#"
+  },
+  {
+    "id": "product-trust",
+    "title": "From MVP to a product users trust",
+    "category": "Products",
+    "date": "2026-07-28",
+    "readTime": "5 min read",
+    "excerpt": "What changes after the first version: onboarding, observability, security and feedback loops.",
+    "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=80",
+    "url": "#"
+  },
+  {
+    "id": "financial-literacy",
+    "title": "Building financial technology responsibly",
+    "category": "Fintech",
+    "date": "2026-07-20",
+    "readTime": "7 min read",
+    "excerpt": "Why fintech products need clear boundaries between technology, information and regulated financial activity.",
+    "imageUrl": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=900&q=80",
+    "url": "#"
+  },
+  {
+    "id": "cloud",
+    "title": "Cloud infrastructure without unnecessary complexity",
+    "category": "Technology",
+    "date": "2026-07-12",
+    "readTime": "5 min read",
+    "excerpt": "How to think about deployment, monitoring, databases and performance as a digital product grows.",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=900&q=80",
+    "url": "#"
+  }
+]

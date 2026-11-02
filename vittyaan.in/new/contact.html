@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description"
+        content="VittYaan Private Limited — fintech and technology organization building software and digital platforms.">
+    <title>Contact Us | VittYaan</title>
+    <link rel="icon" href="assets/img/vittyaan-logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <style>
+    .form-error{
+        width: 100%;
+        margin-top: .25rem;
+        font-size: .875em;
+        color: var(--bs-form-invalid-color);
+    }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container"><a class="navbar-brand" href="index.html"><img src="assets/img/vittyaan-logo.png"
+                    alt="VittYaan"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link " href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link " href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link " href="platforms.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link " href="compliances.html">Compliances</a></li>
+                    <li class="nav-item"><a class="nav-link " href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link " href="careers.html">Careers</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul><a class="btn btn-vy ms-lg-3 mt-3 mt-lg-0" href="contact.html">Let's Talk <i
+                        class="fa-solid fa-arrow-right ms-1"></i></a>
+            </div>
+        </div>
+    </nav>
+    <div class="sebi-banner py-2">
+        <div class="container"><i class="fa-solid fa-circle-info me-2"></i><strong>Regulatory positioning:</strong>
+            <span data-sebi-disclaimer></span></div>
+    </div>
+    <section class="page-hero">
+        <div class="container">
+            <div class="kicker">Contact</div>
+            <h1 class="section-title mt-2">Let's talk about what you're building.</h1>
+            <p class="section-subtitle mt-3">Technology requirement, fintech product, business platform or career
+                opportunity — tell us what you need.</p>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-5">
+                    <div class="card-vy mb-4">
+                        <div class="icon-box accent"><i class="fa-solid fa-envelope"></i></div>
+                        <h5>Email</h5><a class="text-dark fw-bold" data-config-href="company.email"
+                            href="mailto:info@vittyaan.in" data-company-email></a>
+                    </div>
+                    <div class="card-vy mb-4">
+                        <div class="icon-box"><i class="fa-solid fa-location-dot"></i></div>
+                        <h5>Registered Office</h5>
+                        <p class="small-muted mb-0" data-company-address></p>
+                    </div>
+                    <div class="card-vy">
+                        <div class="icon-box accent"><i class="fa-solid fa-shield-halved"></i></div>
+                        <h5>Before you contact us about finance</h5>
+                        <p class="small-muted mb-0">Please note that website content is not investment advice or a
+                            promise of returns. For regulated services, verify the relevant registration and
+                            authorization independently.</p>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="card-vy">
+                        <h3>Send an enquiry</h3>
+                        <p class="small-muted">Frontend-ready demo form. Connect it to your production API or email
+                            workflow before launch.</p>
+                        <form data-contact-form class="needs-validation" id="contact-form-api" novalidate>
+                            <div class="row g-3">
+                                <div class="col-md-6"><label class="form-label fw-semibold">Name</label><input
+                                        class="form-control" name="name" id="name" required>
+                                    <div class="invalid-feedback">Please enter your name.</div>
+                                </div>
+                                <div class="col-md-6"><label class="form-label fw-semibold">Email</label><input
+                                        type="email" class="form-control" name="email" id="email" required>
+                                    <div class="invalid-feedback">Please enter a valid email.</div>
+                                </div>
+                                <div class="col-md-6"><label class="form-label fw-semibold">Phone</label><input
+                                        class="form-control" name="phone" id="phone"></div>
+                                <div class="col-md-6"><label class="form-label fw-semibold">Subject</label><select
+                                        class="form-select" name="subject" id="subject" required>
+                                        <option value="Product Question">Product Question</option>
+                                        <option value="Premium Account/ Refund">Premium Account/ Refund</option>
+                                        <option value="Store / Coins">Store / Coins</option>
+                                        <option value="Support">Support</option>
+                                        <option value="Early Access">Early Access</option>
+                                        <option value="Partnership">Partnership</option>
+                                    </select>
+                                    <div class="invalid-feedback">Please choose an option.</div>
+                                </div>
+                                <div class="col-12"><label class="form-label fw-semibold">Message</label><textarea
+                                        class="form-control" rows="6" name="message" id="message" minlength="10" maxlength="10000" required
+                                        placeholder="Tell us about your requirement..."></textarea>
+                                    <div class="invalid-feedback">Please add a message.</div>
+                                </div>
+                                
+                                <div class="col-12"><button class="btn btn-vy" type="submit">Submit enquiry <i
+                                            class="fa-solid fa-arrow-right ms-1"></i></button></div>
+                                <div class="col-12">
+                                    <div class="form-error"></div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-success alert alert-success d-none mb-0"></div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4"><img class="footer-logo mb-3" src="assets/img/vittyaan-logo.png" alt="VittYaan">
+                    <p class="small-muted text-light opacity-75">A fintech and technology organization building
+                        software, digital products and practical technology solutions.</p>
+                    <div class="small mt-3">CIN: <strong data-company-cin></strong></div>
+                    <div class="small mt-1">Email: <a data-config-href="company.email" href="mailto:info@vittyaan.in"
+                            data-company-email></a></div>
+                    <div class="small mt-1">Phone: <span data-company-phone></span></div>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h6 class="text-white fw-bold">Company</h6>
+                    <ul class="list-unstyled lh-lg">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h6 class="text-white fw-bold">Explore</h6>
+                    <ul class="list-unstyled lh-lg">
+                        <li><a href="platforms.html">Products</a></li>
+                        <li><a href="compliances.html">Compliances</a></li>
+                        <li><a href="privacy.html">Privacy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h6 class="text-white fw-bold">Registered Office</h6>
+                    <p class="small-muted text-light opacity-75" data-company-address></p><a href="contact.html"
+                        class="btn btn-light rounded-pill px-4">Start a conversation</a>
+                </div>
+            </div>
+            <div class="footer-bottom d-flex flex-column flex-md-row justify-content-between gap-2"><span>© <span
+                        data-year></span> VittYaan Private Limited. All rights reserved.</span><span>Technology •
+                    Fintech • Digital Products</span></div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/contact.form.js"></script>
+</body>
+
+</html>
