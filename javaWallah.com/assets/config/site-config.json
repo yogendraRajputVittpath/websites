@@ -10,14 +10,14 @@
     "darkLogo": "assets/images/dark-logo.png"
   },
   "contact": {
-    "phone": "6396387551",
+    "phone": "7060049514",
     "phoneCountryCode": "91",
-    "email": "javawallah@gmail.com",
+    "email": "javawallah05@gmail.com",
     "alternateEmail": "info@javawallah.com",
     "address": "Khandari Chauraha, Agra",
     "city": "Agra",
     "state": "Uttar Pradesh",
-    "whatsapp": "",
+    "whatsapp": "917060049514",
     "instagram": "https://www.instagram.com/javawallah/",
     "youtube": "https://www.youtube.com/@javawallah",
     "mapUrl": ""
@@ -571,7 +571,7 @@
   "team": [
     {
       "name": "Rahul Yadav",
-      "role": "Lead Java Trainer",
+      "role": "Senior Corporate Technical Trainer",
       "focus": "Java, backend development, programming fundamentals, practical coding and technical interview preparation.",
       "initials": "RY"
     },
