@@ -70,10 +70,19 @@
    }
 
    const whatsappUrl='https://wa.me/'+wa+'?text='+encodeURIComponent(text.join('\n'));
+   // Meta Lead records a validated enquiry-form completion / WhatsApp handoff.
+   // It does not confirm that the visitor sent the WhatsApp message.
+   if(typeof window.fbq==='function'){
+    window.fbq('track','Lead');
+   }
    setStatus('Opening WhatsApp with your enquiry…');
 
-   // Open WhatsApp directly. On mobile this opens the app; on desktop it opens WhatsApp Web.
-   window.location.href=whatsappUrl;
+   // Give the Meta Pixel request a brief opportunity to leave the browser
+   // before navigating to WhatsApp. This is a form-to-WhatsApp handoff signal,
+   // not confirmation that the WhatsApp message was sent.
+   window.setTimeout(()=>{
+    window.location.href=whatsappUrl;
+   }, 700);
   }catch(error){
    setStatus('We could not open WhatsApp. Please try again or contact us directly.',true);
    button.disabled=false;
