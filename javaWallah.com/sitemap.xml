@@ -1,1 +1,42 @@
-<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://javawallah.com/</loc></url><url><loc>https://javawallah.com/courses.html</loc></url><url><loc>https://javawallah.com/internships.html</loc></url><url><loc>https://javawallah.com/career-support.html</loc></url><url><loc>https://javawallah.com/team.html</loc></url><url><loc>https://javawallah.com/placements.html</loc></url><url><loc>https://javawallah.com/blog.html</loc></url><url><loc>https://javawallah.com/contact.html</loc></url><url><loc>https://javawallah.com/courses/complete-java-solutions.html</loc></url><url><loc>https://javawallah.com/courses/full-stack-development.html</loc></url><url><loc>https://javawallah.com/internships/frontend-internship.html</loc></url><url><loc>https://javawallah.com/internships/java-development-internship.html</loc></url><url><loc>https://javawallah.com/internships/full-stack-internship.html</loc></url></urlset>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://javawallah.com/</loc>
+  </url>
+  <url>
+    <loc>https://javawallah.com/courses.html</loc>
+  </url>
+  <url>
+    <loc>https://javawallah.com/internships.html</loc>
+  </url>
+  <url>
+    <loc>https://javawallah.com/career-support.html</loc>
+  </url>
+  <url>
+    <loc>https://javawallah.com/team.html</loc>
+  </url>
+  <url>
+    <loc>https://javawallah.com/placements.html</loc>
+  </url>
+  <url>
+    <loc>https://javawallah.com/blog.html</loc>
+  </url>
+  <url>
+    <loc>https://javawallah.com/contact.html</loc>
+  </url>
+  <url>
+    <loc>https://javawallah.com/courses/complete-java-solutions.html</loc>
+  </url>
+  <url>
+    <loc>https://javawallah.com/courses/full-stack-development.html</loc>
+  </url>
+  <url>
+    <loc>https://javawallah.com/internships/frontend-internship.html</loc>
+  </url>
+  <url>
+    <loc>https://javawallah.com/internships/java-development-internship.html</loc>
+  </url>
+  <url>
+    <loc>https://javawallah.com/internships/full-stack-internship.html</loc>
+  </url>
+</urlset>
