@@ -12,14 +12,15 @@ Open http://127.0.0.1:8765/ in a browser. Python 3 needs no additional packages.
 
 ## Included
 
-- 18 responsive HTML pages, including all original pages.
+- 22 responsive HTML pages, including all original pages and four search-focused trading practice guides.
 - Preserved legacy early-access.html and legal.html, including #privacy and #terms.
 - Current application login, registration, Premium Account and Store links.
 - Product benefits, discipline routines, platform comparison, target-linked refund guidance, store guide and company-reported community figures.
 - Dated SEBI statistics with primary-source links.
 - Four complete static blog articles, plus a server-loaded listing and category filters.
 - Working demo contact POST, server validation, loading/success/failure handling and retained form input after failure.
-- Unique titles/descriptions, keyword metadata, canonical URLs, Open Graph metadata, JSON-LD, sitemap and robots.txt.
+- Unique titles/descriptions, canonical URLs, Open Graph and Twitter metadata, JSON-LD, sitemap and robots.txt.
+- Search-focused paper trading, virtual trading, stock market simulator and F&O practice pages, linked from the homepage.
 - AOS scroll animations, reduced-motion support, labelled form fields, keyboard navigation and skip link.
 
 ## Demo API contract
